@@ -1,5 +1,19 @@
+@font-face {
+  font-family: TwcentMed-midp;
+  src: url(items/TwCenMTStd-LightItalic.otf);
+}
+@font-face {
+  font-family: TwcentMed;
+  src: url(items/century-725-bt.ttf);
+}
+@font-face {
+  font-family: TwcentMed-top;
+  src: url(items/century-731-bt.ttf);
+}
+
 body {
   margin: 0;
+ font-family: TwcentMed; 
 }
 
 .topbar {
@@ -21,6 +35,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 10vh;
+  font-family: TwcentMed-top;
+}
+
+.search-main button, input {
+  font-family: TwcentMed-top;
 }
 
 .search-main-items {
@@ -36,7 +55,7 @@ body {
   align-self:center;
   font-size: 1.6rem;
   padding-bottom: 0.5rem;
-  background:rgba(0,0,0,0.05);
+  background:rgba(0,0,0,0.07);
 }
 .search-main-items button {
   display: flex;
@@ -76,7 +95,7 @@ body {
   font-weight: 800;
   font-size: 1.1rem;
   letter-spacing: 0.05rem;
-  background:rgba(0,0,0,0.05);
+  background:rgba(0,0,0,0.02);
 }
 
 .mid-four-header {
@@ -100,6 +119,11 @@ body {
   margin-bottom: 10vh;
 }
 
+.mid-four p {
+  font-family: TwcentMed-midp;
+  font-size: larger;
+}
+
 .mid-search, .mid-locate, .mid-apply, .mid-relax {
   text-align: center;
 }
@@ -114,7 +138,35 @@ body {
 
 .trio-first { 
   background-color: #E27F65;
+  display:flex;
+  justify-content: space-between;
 }
+.trio-first-left {
+  margin-top: 11vh;
+  margin-left: 6vw;
+  color: #fff;
+  font-size: larger;
+}
+.trio-first-left button {
+  background-color: #fff;
+  color:#E27F65;
+  padding: 1rem 3rem 1rem 3rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 900;
+  margin-top:4vh;
+}
+
+.trio-first-right {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 40vh;
+  margin-top: 7vh;
+  margin-right: 5vw;
+}
+
+
+
 .trio-second {
   background-color: #99A5A6;
 }
