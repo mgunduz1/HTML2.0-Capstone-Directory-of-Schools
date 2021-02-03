@@ -1,0 +1,186 @@
+@font-face {
+    font-family: TwcentMed-midp;
+    src: url(items/TwCenMTStd-LightItalic.otf);
+  }
+  @font-face {
+    font-family: TwcentMed;
+    src: url(items/century-725-bt.ttf);
+  }
+  @font-face {
+    font-family: TwcentMed-top;
+    src: url(items/century-731-bt.ttf);
+  }
+  @font-face {
+    font-family: Shakespeare;
+    src: url(items/Hamletornot-K7y7.ttf);
+  }
+  
+  body {
+    margin: 0;
+   font-family: TwcentMed;
+   background-color: rgb(252, 252, 252);
+  }
+  
+  .topbar {
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #D45648;
+    position: fixed;
+    opacity: 1;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .topbar-left {
+    color: #fff;
+    margin-left: 4vw;
+    display:flex;
+    flex-direction: row;
+  }
+  .topbar-left p {
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+    padding-left: 1vw;
+  }
+  
+  .topbar-right {
+    margin-right: 4vw;
+    display:flex;
+    flex-direction: row;
+    vertical-align: middle;
+  }
+  .topbar-right a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 3vw;
+    margin:auto;
+    font-size: smaller;
+    font-weight: 700;
+  }
+
+  .select-area {
+      width: 100% !important;
+      height: auto;
+      background-color: rgb(234, 234, 234);
+      display: flex;
+      flex-direction: column;
+      margin-top: 20vh;
+      margin-bottom: 10vh;
+  }
+
+  .select-header {
+      display: flex;
+      justify-content: center;
+      padding-top: 4vh ;
+      padding-bottom: 4vh;
+      color: rgb(63, 63, 63);
+  }
+
+  .select-and-button {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding-bottom: 12vh;
+      margin-right: 4vw;
+      margin-left: 4vw;
+      color: rgb(63, 63, 63);
+      font-weight: 700;
+  }
+
+  .label-and-option {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+  }
+
+  .selects {
+      width: 14vw;
+      height: 5vh;
+      border: none;
+      border-radius: 3px;
+  }
+
+  .select-and-button button {
+      height: 5vh;
+      color: rgb(252, 252, 252);
+      font-weight: 700;
+      border: none;
+      border-radius: 3px;
+      width: 8vw;
+  }
+
+  .button-left { background-color: rgb(37, 65, 97); }
+
+  .button-right { background-color: rgb(233, 118, 52); }
+
+  .non-display { color:rgb(234, 234, 234); }
+
+.search-results {
+    display: grid;
+    width: 92vw !important;
+    height: auto;
+    margin: auto;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 40vw 40vw 40vw;
+    gap: 1vw;
+}
+
+.grid-1 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/1.jpg");
+}
+.grid-2 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/2.jpg");
+}
+.grid-3 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/3.jpg");
+}
+.grid-4 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0) 90%),url("items/4.jpg");
+}
+.grid-5 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/5.jpg");
+}
+.grid-6 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(255, 255, 255, 0) 95%),url("items/6.jpg");
+}
+.grid-7 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/7.jpg");
+}
+.grid-8 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/8.jpg");
+}
+.grid-9 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 90%),url("items/9.jpg");
+}
+
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9 {
+    background-size: cover;
+    position: relative;
+}
+
+.grid-text {
+    position: absolute;
+    top:15%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+.grid-text h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 6rem;
+    margin-bottom: 0;
+    margin-top:0;
+    font-weight: 100;
+}
+
+
+  
+
+  
