@@ -1,3 +1,5 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
 @font-face {
   font-family: TwcentMed-midp;
   src: url(items/TwCenMTStd-LightItalic.otf);
@@ -219,7 +221,10 @@ input {
   max-width: 45vw;
 }
 
-.trio-first-right img { min-width: 20vw; max-width: 30vw; }
+.trio-first-right img {
+  min-width: 20vw;
+  max-width: 30vw;
+}
 
 .trio-second-left button {
   background-color: #fff;
@@ -323,7 +328,11 @@ input {
   justify-content: center;
   text-align: center;
 }
-.bottom-left-input { display: flex; justify-content: center; }
+
+.bottom-left-input {
+  display: flex;
+  justify-content: center;
+}
 
 .bottom-left-input input[type=submit] {
   background-color: #1f1f1f;
@@ -359,9 +368,14 @@ input {
   text-align: center;
 }
 .bottom-right h2 { margin-bottom: 0; }
+
 .bottom-right p,
 .bottom-mid p { color: rgb(216, 216, 216); }
-.bottom-mid a { text-decoration: none; color: #d45648; }
+
+.bottom-mid a {
+  text-decoration: none;
+  color: #d45648;
+}
 
 .footer-last {
   background-color: #1f1f1f;

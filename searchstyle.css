@@ -1,3 +1,5 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
 @font-face {
   font-family: TwcentMed-midp;
   src: url(items/TwCenMTStd-LightItalic.otf);
@@ -248,7 +250,11 @@ body {
   justify-content: center;
   text-align: center;
 }
-.bottom-left-input { display: flex; justify-content: center; }
+
+.bottom-left-input {
+  display: flex;
+  justify-content: center;
+}
 
 .bottom-left-input input[type=submit] {
   background-color: #1f1f1f;
@@ -284,9 +290,14 @@ body {
   text-align: center;
 }
 .bottom-right h2 { margin-bottom: 0; }
+
 .bottom-right p,
 .bottom-mid p { color: rgb(216, 216, 216); }
-.bottom-mid a { text-decoration: none; color: #d45648; }
+
+.bottom-mid a {
+  text-decoration: none;
+  color: #d45648;
+}
 
 .footer-last {
   background-color: #1f1f1f;
@@ -308,12 +319,10 @@ body {
   padding-right: 3vw;
 }
 
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-  
-  
-  .topbar { width: 100vw !important;}
-  
+
+  .topbar { width: 100vw !important; }
+
   .topbar-right {
     margin-right: 10vw;
   }
@@ -326,7 +335,6 @@ body {
   }
   .gotta-go-top { display: none; }
 
-  
   .footer-top {
     display: flex;
     color: #fff;
@@ -349,9 +357,7 @@ body {
   .grid-text h3 {
     font-size: 5vw;
   }
-
 }
-
 
 @media screen and (max-width: 767px) {
 
@@ -396,7 +402,8 @@ body {
     text-decoration: none;
     margin: 0 0 3vh 0;
   }
-  .select-and-button { padding-right: 1vw;}
+  .select-and-button { padding-right: 1vw; }
+
   .select-and-button button {
     width: 20vw;
   }
