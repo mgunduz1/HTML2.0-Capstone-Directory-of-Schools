@@ -364,13 +364,7 @@ body {
   .gotta-go-top { display: none; }
 
   .topbar {
-    top: 0;
-    width: 100%;
     height: 20vh;
-    background-color: #d45648;
-    position: fixed;
-    opacity: 1;
-    z-index: 99;
     display: flex;
     flex-direction: column;
     max-width: 100vw;

@@ -165,7 +165,7 @@ input {
   row-gap: 10vh;
   margin: auto;
   color: rgb(63, 63, 63);
-  margin-bottom: 15vh;
+  margin-bottom: 5vh;
 }
 
 .mid-four p {
@@ -184,7 +184,7 @@ input {
   display: grid;
   max-height: 168vh;
   width: 100%;
-  grid-template-rows: 52vh 52vh 64vh;
+  grid-template-rows: minmax(30vw, auto) minmax(30vw, auto) auto;
   row-gap: 0;
 }
 
@@ -196,10 +196,11 @@ input {
 
 .trio-first-left,
 .trio-second-left {
-  margin-top: 11vh;
+  margin-top: 8vh;
   margin-left: 6vw;
   color: #fff;
   font-size: larger;
+  margin-bottom: 5vh;
 }
 
 .trio-first-left button {
@@ -219,11 +220,7 @@ input {
   margin-right: 5vw;
   max-height: 45vh;
   max-width: 45vw;
-}
-
-.trio-first-right img {
-  min-width: 20vw;
-  max-width: 30vw;
+  margin-bottom: 5vh;
 }
 
 .trio-second-left button {
@@ -248,6 +245,7 @@ input {
   margin-top: 5vh;
   margin-right: 2vw;
   max-width: 48vw;
+  margin-bottom: 5vh;
 }
 
 .trio-third {
@@ -263,22 +261,13 @@ input {
   font-size: larger;
 }
 
-/* .trio-third-left button {
-  background-color: #fff;
-  color:#99A5A6;
-  padding: 1rem 3rem 1rem 3rem;
-  border: none;
-  border-radius: 4px;
-  font-weight: 900;
-  margin-top:4vh;
-} */
-
 .trio-third-right img {
   border-radius: 0.5rem;
   max-height: 58vh;
   margin-top: 3.5vh;
   margin-right: 2vw;
   max-width: 60vw;
+  margin-bottom: 3.5vh;
 }
 
 .trio-third p {
@@ -296,7 +285,7 @@ input {
   display: flex;
   color: rgb(246, 246, 246);
   justify-content: space-evenly;
-  padding-top: 8vh;
+  padding-top: 11vw;
   font-size: larger;
   margin-bottom: 5vh;
 }
