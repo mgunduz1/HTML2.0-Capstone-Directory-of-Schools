@@ -13,6 +13,7 @@
   
 ## This website is live, you can check it here: [Live demo](https://confident-feynman-eebcb9.netlify.app/)
 
+## [Project Presentation Video](https://www.loom.com/share/df4ac681176441009e1ebcd44aa35211)
 
 ## ✒️  Author <a name = "author"></a>
 
@@ -24,6 +25,10 @@
 ## Show your support ⭐️⭐️
 
 If you've read this far....give a star to this project ⭐️!
+
+## Acknowledge
+- Hat tip to anyone who helped to develop this project
+- [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## 📝 License
 
