@@ -13,7 +13,6 @@
   
 ## This website is live, you can check it here: [Live demo](https://confident-feynman-eebcb9.netlify.app/)
 
-## [Project Presentation Video](https://www.loom.com/share/df4ac681176441009e1ebcd44aa35211)
 
 ## ✒️  Author <a name = "author"></a>
 
@@ -26,9 +25,12 @@
 
 If you've read this far....give a star to this project ⭐️!
 
-## Acknowledge
-- Hat tip to anyone who helped to develop this project
-- [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE)
+## Usage
+If you want to use it locally download or clone the repo with the following command on a terminal:
+
+git clone https://github.com/mgunduz1/HTML2.0-Capstone-Directory-of-Schools.git
+
+cd to the folder and open the index.html in your browser
 
 ## 📝 License
 
