@@ -25,6 +25,13 @@
 
 If you've read this far....give a star to this project ⭐️!
 
+## Usage
+If you want to use it locally download or clone the repo with the following command on a terminal:
+
+git clone https://github.com/mgunduz1/HTML2.0-Capstone-Directory-of-Schools.git
+
+cd to the folder and open the index.html in your browser
+
 ## 📝 License
 
 https://www.behance.net/gallery/25563385/PatashuleKE
