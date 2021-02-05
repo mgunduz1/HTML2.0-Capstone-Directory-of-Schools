@@ -11,7 +11,7 @@
 - HTML/CSS
 - This is a pure css project. <b>No frameworks used.
   
-## This website is live, you can check it here: [Live demo](https://confident-feynman-eebcb9.netlify.app/)
+## This website is live, you can check it here: [Live demo](https://zealous-morse-5eb016.netlify.app/)
 
 
 ## ✒️  Author <a name = "author"></a>
