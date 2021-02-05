@@ -52,6 +52,11 @@ body {
   padding-left: 1vw;
 }
 
+.topbar-left img {
+  max-height: 7vh;
+  margin-top: 1vh;
+}
+
 .topbar-right {
   margin-right: 4vw;
   display: flex;
