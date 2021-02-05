@@ -28,8 +28,8 @@ body {
 
 .topbar {
   top: 0;
-  width: 100% !important;
-  height: 10vh;
+  width: 100%;
+  height: 8.5vh;
   background-color: #d45648;
   position: fixed;
   opacity: 1;
@@ -50,6 +50,11 @@ body {
   font-weight: 700;
   font-size: larger;
   padding-left: 1vw;
+}
+
+.topbar-left img {
+  max-height: 6vh;
+  margin-top: 1vh;
 }
 
 .topbar-right {
@@ -164,7 +169,7 @@ body {
   margin-bottom: 15vh;
 }
 
-.map h1 {
+.map h2 {
   text-align: center;
   color: #d45648;
   font-size: 2rem;
@@ -243,8 +248,10 @@ body {
   padding: 1rem 2rem 1rem 2rem;
 }
 
-.footer-top h4 {
+.footer-top a {
   padding-top: 5vh;
+  text-decoration: none;
+  color: rgb(246, 246, 246);
 }
 
 .footer-bottom {
@@ -328,6 +335,11 @@ body {
   justify-content: space-evenly;
 }
 
+.footer-last-left a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .footer-last-right {
   font-size: larger;
   padding-right: 3vw;
@@ -362,7 +374,7 @@ body {
     padding: 0.8rem 1.6rem 0.8rem 1.6rem;
   }
 
-  .footer-top h4 {
+  .footer-top a {
     font-size: smaller;
   }
 
@@ -379,6 +391,8 @@ body {
     flex-direction: column;
     max-width: 100vw;
   }
+
+  .topbar img { margin-top: 2vh; }
 
   .topbar-left {
     color: #fff;
@@ -432,10 +446,10 @@ body {
   .bottom-mid h2 { margin-top: 0; }
 
   .bottom-left { display: none; }
-  .footer-top h4 { display: none; }
+  .footer-top a { display: none; }
 
   .footer-bottom {
-    width: 98%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     font-size: 80%;

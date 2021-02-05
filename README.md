@@ -11,7 +11,7 @@
 - HTML/CSS
 - This is a pure css project. <b>No frameworks used.
   
-## This website is live, you can check it here: [Live demo](https://confident-feynman-eebcb9.netlify.app/)
+## This website is live, you can check it here: [Live demo](https://zealous-morse-5eb016.netlify.app/)
 
 
 ## ✒️  Author <a name = "author"></a>
@@ -31,6 +31,10 @@ If you want to use it locally download or clone the repo with the following comm
 git clone https://github.com/mgunduz1/HTML2.0-Capstone-Directory-of-Schools.git
 
 cd to the folder and open the index.html in your browser
+
+## Acknowledgments
+- Hats off to anyone who helped to develop this project
+- PatashuleKE[https://www.behance.net/gallery/25563385/PatashuleKE]
 
 ## 📝 License
 
