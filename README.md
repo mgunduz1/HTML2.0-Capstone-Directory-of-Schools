@@ -32,6 +32,10 @@ git clone https://github.com/mgunduz1/HTML2.0-Capstone-Directory-of-Schools.git
 
 cd to the folder and open the index.html in your browser
 
+## Acknowledgments
+- Hats off to anyone who helped to develop this project
+- PatashuleKE[https://www.behance.net/gallery/25563385/PatashuleKE]
+
 ## 📝 License
 
 https://www.behance.net/gallery/25563385/PatashuleKE
